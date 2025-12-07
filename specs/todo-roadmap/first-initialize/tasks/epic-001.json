@@ -1,0 +1,33 @@
+{
+  "id": "epic-001",
+  "title": "Auth & Identity",
+  "description": "OAuth (Google/Microsoft), JWT/refresh, MFA, RBAC, rate limiting and security controls; FE login/guards.",
+  "type": "epic",
+  "priority": "high",
+  "complexity": "medium",
+  "status": "todo",
+  "column": "todo",
+  "dependencies": [],
+  "subtasks": ["task-001-1", "task-001-2", "task-001-3", "task-001-4", "task-001-5", "task-001-6"],
+  "estimatedHours": 40,
+  "actualHours": 0,
+  "tags": ["auth", "security", "frontend"],
+  "sdd": {
+    "phase": "planning",
+    "commands": ["/plan"],
+    "linkedSpec": null,
+    "executeCommand": "/execute-task epic-001",
+    "executedAt": null,
+    "completedAt": null
+  },
+  "markdown": "## Auth & Identity\n\n**Objective:** Deliver secure auth flows (OAuth, JWT/refresh), MFA/RBAC, rate limits, and FE guards.\n\n### Details\n- Providers: Google, Microsoft (Graph)\n- Tokens: access/refresh, rotation, storage hardening\n- MFA: TOTP\n- RBAC: roles/permissions\n- FE: login, protected routes",
+  "assignee": null,
+  "reporter": null,
+  "created": "2025-12-07T00:00:00.000Z",
+  "updated": "2025-12-07T00:00:00.000Z",
+  "startedAt": null,
+  "completedAt": null,
+  "blockers": [],
+  "comments": []
+}
+

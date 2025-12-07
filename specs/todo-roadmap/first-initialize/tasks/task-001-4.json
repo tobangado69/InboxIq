@@ -1,0 +1,33 @@
+{
+  "id": "task-001-4",
+  "title": "MFA & RBAC policy",
+  "description": "Implement TOTP-based MFA and role/permission checks with guard middleware.",
+  "type": "task",
+  "priority": "medium",
+  "complexity": "medium",
+  "status": "todo",
+  "column": "todo",
+  "dependencies": ["task-001-1", "task-001-3"],
+  "subtasks": [],
+  "estimatedHours": 6,
+  "actualHours": 0,
+  "tags": ["auth", "security"],
+  "sdd": {
+    "phase": "implementation",
+    "commands": ["/implement"],
+    "linkedSpec": null,
+    "executeCommand": "/execute-task task-001-4",
+    "executedAt": null,
+    "completedAt": null
+  },
+  "markdown": "## MFA & RBAC policy\n\n**Objective:** TOTP MFA and RBAC enforcement.",
+  "assignee": null,
+  "reporter": null,
+  "created": "2025-12-07T00:00:00.000Z",
+  "updated": "2025-12-07T00:00:00.000Z",
+  "startedAt": null,
+  "completedAt": null,
+  "blockers": [],
+  "comments": []
+}
+

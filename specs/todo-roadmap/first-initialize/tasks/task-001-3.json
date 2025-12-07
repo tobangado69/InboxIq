@@ -1,0 +1,33 @@
+{
+  "id": "task-001-3",
+  "title": "Token & session service",
+  "description": "Implement JWT/refresh issuance, rotation, storage, revocation, and session validation middleware.",
+  "type": "task",
+  "priority": "high",
+  "complexity": "medium",
+  "status": "todo",
+  "column": "todo",
+  "dependencies": ["task-001-1"],
+  "subtasks": [],
+  "estimatedHours": 8,
+  "actualHours": 0,
+  "tags": ["auth", "backend"],
+  "sdd": {
+    "phase": "implementation",
+    "commands": ["/implement"],
+    "linkedSpec": null,
+    "executeCommand": "/execute-task task-001-3",
+    "executedAt": null,
+    "completedAt": null
+  },
+  "markdown": "## Token & session service\n\n**Objective:** JWT/refresh issuance, rotation, storage, revocation, validation middleware.",
+  "assignee": null,
+  "reporter": null,
+  "created": "2025-12-07T00:00:00.000Z",
+  "updated": "2025-12-07T00:00:00.000Z",
+  "startedAt": null,
+  "completedAt": null,
+  "blockers": [],
+  "comments": []
+}
+

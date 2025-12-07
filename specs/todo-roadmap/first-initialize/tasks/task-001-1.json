@@ -1,0 +1,33 @@
+{
+  "id": "task-001-1",
+  "title": "Auth flows & threat model",
+  "description": "Document auth flows (OAuth login, JWT/refresh, session handling), threats, and controls.",
+  "type": "task",
+  "priority": "high",
+  "complexity": "medium",
+  "status": "todo",
+  "column": "todo",
+  "dependencies": [],
+  "subtasks": [],
+  "estimatedHours": 6,
+  "actualHours": 0,
+  "tags": ["auth", "spec"],
+  "sdd": {
+    "phase": "specification",
+    "commands": ["/specify"],
+    "linkedSpec": null,
+    "executeCommand": "/execute-task task-001-1",
+    "executedAt": null,
+    "completedAt": null
+  },
+  "markdown": "## Auth flows & threat model\n\n**Objective:** Capture flows, risks, and mitigations for OAuth/JWT/MFA.",
+  "assignee": null,
+  "reporter": null,
+  "created": "2025-12-07T00:00:00.000Z",
+  "updated": "2025-12-07T00:00:00.000Z",
+  "startedAt": null,
+  "completedAt": null,
+  "blockers": [],
+  "comments": []
+}
+

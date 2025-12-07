@@ -1,0 +1,14 @@
+{
+  "roadmaps": [
+    {
+      "id": "first-initialize",
+      "title": "InboxIQ roadmap",
+      "description": "Full SDD roadmap for InboxIQ (monorepo) covering auth, email sync, extraction, notifications, API, observability, frontend, and deployment.",
+      "path": "specs/todo-roadmap/first-initialize",
+      "status": "planning",
+      "created": "2025-12-07T00:00:00.000Z",
+      "updated": "2025-12-07T00:00:00.000Z"
+    }
+  ]
+}
+
