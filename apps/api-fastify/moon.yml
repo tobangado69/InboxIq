@@ -1,0 +1,31 @@
+$schema: 'https://moonrepo.dev/schemas/project.json'
+
+type: application
+language: typescript
+stack: backend
+tags: ['api', 'fastify']
+
+id: 'api-fastify'
+
+project:
+  name: api-fastify
+  description: 'Fastify backend for OAuth and API surface'
+
+tasks:
+  dev:
+    command: 'pnpm run dev'
+    options:
+      envFile: '.env'
+  build:
+    command: 'pnpm run build'
+    options:
+      cache: true
+  lint:
+    command: 'pnpm run lint'
+    options:
+      cache: true
+  check:
+    deps: ['lint']
+    options:
+      cache: true
+
