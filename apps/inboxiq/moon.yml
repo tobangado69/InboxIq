@@ -1,0 +1,41 @@
+# https://moonrepo.dev/docs/config/project
+# yaml-language-server: $schema=https://moonrepo.dev/schemas/project.json
+$schema: 'https://moonrepo.dev/schemas/project.json'
+
+type: application
+language: typescript
+stack: frontend
+tags: ['app']
+
+# Overrides the name (identifier) of the project
+id: 'inboxiq'
+
+project:
+  name: inboxiq
+  description: 'InboxIQ React frontend'
+
+tasks:
+  dev:
+    command: 'pnpm run dev'
+    options:
+      envFile: '.env'
+
+  build:
+    command: 'pnpm run build'
+    options:
+      cache: true
+
+  typecheck:
+    command: 'pnpm run typecheck'
+    options:
+      cache: true
+
+  lint:
+    command: 'pnpm run lint'
+    options:
+      cache: true
+
+  check:
+    deps: ['lint', 'typecheck']
+    options:
+      cache: true
