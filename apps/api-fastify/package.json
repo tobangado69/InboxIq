@@ -15,7 +15,7 @@
     "@fastify/formbody": "^8.0.2",
     "@fastify/jwt": "^7.0.1",
     "dotenv": "^16.4.5",
-    "fastify": "^4.28.1",
+    "fastify": "^5.0.0",
     "fastify-type-provider-zod": "^2.0.0",
     "jose": "^5.9.3",
     "zod": "^3.24.1"
